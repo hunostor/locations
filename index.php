@@ -16,11 +16,21 @@
     <div class="container">
         <div class="map-search well">
             <p>A oldal helyes működéséhez kapcsold be mobilodon a "location" szolgáltatást!</p>
-            <h3 class="title">Keressd meg Budapest nevezetességeit!</h3>
             <p>Mond el, hol vagy!</p>
             <button id="get_location" class="btn btn-success btn-lg btn-lerobbantam"><span class="glyphicon glyphicon-road" aria-hidden="true"></span>  Lerobbantam!</button>
 
 <!--            <input type="text" id="map-search-autocomplete" class="map-search-autocomplete">-->
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">Bejelentkezés/Regisztráció</div>
+            <div class="panel-body">
+                <form>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon1">@</span>
+                        <input type="email" class="form-control" placeholder="Add meg az email címedet" aria-describedby="sizing-addon1">
+                    </div>
+                </form>
+            </div>
         </div>
         <h2>Places</h2>
        <div id="places">
