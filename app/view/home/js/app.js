@@ -8,9 +8,9 @@ document.getElementById('get_location').onclick = function() {
             var lat = pos.coords.latitude,
                long = pos.coords.longitude,
              coords = lat + ', ' + long;
-                
+
                 $.ajax({
-                        url: "list.php",
+                        url: "/loc/app/list.php",
                         type: "post",
                         data: {
                             lat: lat,
