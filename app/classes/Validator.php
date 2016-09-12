@@ -1,5 +1,7 @@
 <?php
 
+namespace App\classes;
+
 /**
  * Class Validator, form adatok tisztitása és validálása
  */
@@ -21,7 +23,8 @@ class Validator
     }
 
     public function createToken() {
-        $values = array_fill(range(0, 9), range('a', 'z'));
+        $values = range(0, 9);
+        $values = range(a, z);
         var_dump($values);
     }
 }
