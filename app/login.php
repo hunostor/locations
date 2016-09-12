@@ -3,5 +3,7 @@
 
 require_once 'classes/User.php';
 
-new User;
+$email = $_POST['user_email'];
+
+new User($email);
 

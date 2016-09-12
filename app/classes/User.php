@@ -3,8 +3,9 @@
 
 class User
 {
-    public function __construct()
+    public function __construct($email)
     {
-        echo 'User class';
+        $_SESSION['user'] = $email;
+        echo 'Bejelentkezve: ' . $_SESSION['user'];
     }
 }
