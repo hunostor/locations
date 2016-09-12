@@ -20,4 +20,8 @@ class Validator
         }
     }
 
+    public function createToken() {
+        $values = array_fill(range(0, 9), range('a', 'z'));
+        var_dump($values);
+    }
 }
